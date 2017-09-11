@@ -10,6 +10,13 @@ p, h1 {
  background-color: lightblue;
 }
 
+li {
+  color: white; /* bullet color */
+}
+li span {
+  color: white; /* text color */
+}
+
 .clientheader h1{ margin:10px 0;}
 .clientheader h3{ margin:15px 0}
 .clientheader .btn{margin:0;}

@@ -44,7 +44,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-             <a class="navbar-brand" href="#">STUDENT AWS ECS DEMO</a>
+             <a class="navbar-brand" href="#">AWS ECS DEMO</a>
 
         </div>
 
@@ -52,13 +52,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#myheader">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#features">Career Summary</a></li>
-                <li><a href="#professionalexperience">Work Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#techskills">Skills</a></li>
-                <li><a href="#domainknowledge">Domain Knowledge</a></li>
-                <li><a href="BINIT_DATTA.docx">Get Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#features">Docker</a></li>
+                <li><a href="#professionalexperience">AWS</a></li>
+                <li><a href="#education">ECS</a></li>
             </ul>
         </div>
 
@@ -76,10 +72,16 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft">
                 <h1>Welcome</h1>
 
-                <p>I am One Person, with Multiple IT Skills. However, my multiple skills, all of them, roll up to one : solving businesss problems by building
-                    IT systems using cutting edge technology, within cost and time budget. That was my mission for the past 20 years and it would
-                    remain so for the future. I have honed that one skill through years of working with
-                    teams and individuals. My projects, which are in multiple major business verticals, span across the globe and uses cutting edge technologies.
+                <p>This is a sample Spring MVC legacy application with the war packaging. A number of companies has this legacy and are wondering how 
+                 these applications can leverage running in a large Docker Cluster. The purpose of this application is to demonstrate several things such as
+                 
+                 <ul>
+                 	<li><span>How Spring MVC Legacy JPA app can connect to AWS RDS</span></li>
+                 	<li><span>How Spring MVC Legacy JPA app can standalone in a Docker container</span></li>	
+                 	<li><span>How Spring MVC Legacy JPA app can run in an AWS ECs Docker cluster</span></li>	
+                 	<li><span>How Spring MVC Legacy JPA app can be continuously integrated (CI) with Jenkins</span></li>	
+                 </ul>
+                 
                     </p>
 
                 <ul class="list-inline">
