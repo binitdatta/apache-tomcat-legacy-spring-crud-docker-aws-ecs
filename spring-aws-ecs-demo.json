@@ -1,0 +1,17 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "spring-aws-ecs-demo",
+      "image": "binitdatta/spring-aws-ecs-demo",
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080
+        }
+      ],
+      "memory": 100,
+      "cpu": 102
+    }
+  ],
+  "family": "spring-aws-ecs-demo"
+}
